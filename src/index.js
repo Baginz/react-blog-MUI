@@ -10,7 +10,7 @@ import './firebase';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/react-blog-MUI'>
       <Provider store={store}>
         <App />
       </Provider>
